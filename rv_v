@@ -204,6 +204,42 @@ vlsseg6e64.v    31..28=5 27..26=2 vm rs2 rs1 14..12=0x7 vd 6..0=0x07
 vlsseg7e64.v    31..28=6 27..26=2 vm rs2 rs1 14..12=0x7 vd 6..0=0x07
 vlsseg8e64.v    31..28=7 27..26=2 vm rs2 rs1 14..12=0x7 vd 6..0=0x07
 
+vsse8.v         31..28=0 27..26=2 vm rs2 rs1 14..12=0x0 vs3 6..0=0x27
+vssseg2e8.v     31..28=1 27..26=2 vm rs2 rs1 14..12=0x0 vs3 6..0=0x27
+vssseg3e8.v     31..28=2 27..26=2 vm rs2 rs1 14..12=0x0 vs3 6..0=0x27
+vssseg4e8.v     31..28=3 27..26=2 vm rs2 rs1 14..12=0x0 vs3 6..0=0x27
+vssseg5e8.v     31..28=4 27..26=2 vm rs2 rs1 14..12=0x0 vs3 6..0=0x27
+vssseg6e8.v     31..28=5 27..26=2 vm rs2 rs1 14..12=0x0 vs3 6..0=0x27
+vssseg7e8.v     31..28=6 27..26=2 vm rs2 rs1 14..12=0x0 vs3 6..0=0x27
+vssseg8e8.v     31..28=7 27..26=2 vm rs2 rs1 14..12=0x0 vs3 6..0=0x27
+
+vsse16.v        31..28=0 27..26=2 vm rs2 rs1 14..12=0x5 vs3 6..0=0x27
+vssseg2e16.v    31..28=1 27..26=2 vm rs2 rs1 14..12=0x5 vs3 6..0=0x27
+vssseg3e16.v    31..28=2 27..26=2 vm rs2 rs1 14..12=0x5 vs3 6..0=0x27
+vssseg4e16.v    31..28=3 27..26=2 vm rs2 rs1 14..12=0x5 vs3 6..0=0x27
+vssseg5e16.v    31..28=4 27..26=2 vm rs2 rs1 14..12=0x5 vs3 6..0=0x27
+vssseg6e16.v    31..28=5 27..26=2 vm rs2 rs1 14..12=0x5 vs3 6..0=0x27
+vssseg7e16.v    31..28=6 27..26=2 vm rs2 rs1 14..12=0x5 vs3 6..0=0x27
+vssseg8e16.v    31..28=7 27..26=2 vm rs2 rs1 14..12=0x5 vs3 6..0=0x27
+
+vsse32.v        31..28=0 27..26=2 vm rs2 rs1 14..12=0x6 vs3 6..0=0x27
+vssseg2e32.v    31..28=1 27..26=2 vm rs2 rs1 14..12=0x6 vs3 6..0=0x27
+vssseg3e32.v    31..28=2 27..26=2 vm rs2 rs1 14..12=0x6 vs3 6..0=0x27
+vssseg4e32.v    31..28=3 27..26=2 vm rs2 rs1 14..12=0x6 vs3 6..0=0x27
+vssseg5e32.v    31..28=4 27..26=2 vm rs2 rs1 14..12=0x6 vs3 6..0=0x27
+vssseg6e32.v    31..28=5 27..26=2 vm rs2 rs1 14..12=0x6 vs3 6..0=0x27
+vssseg7e32.v    31..28=6 27..26=2 vm rs2 rs1 14..12=0x6 vs3 6..0=0x27
+vssseg8e32.v    31..28=7 27..26=2 vm rs2 rs1 14..12=0x6 vs3 6..0=0x27
+
+vsse64.v        31..28=0 27..26=2 vm rs2 rs1 14..12=0x7 vs3 6..0=0x27
+vssseg2e64.v    31..28=1 27..26=2 vm rs2 rs1 14..12=0x7 vs3 6..0=0x27
+vssseg3e64.v    31..28=2 27..26=2 vm rs2 rs1 14..12=0x7 vs3 6..0=0x27
+vssseg4e64.v    31..28=3 27..26=2 vm rs2 rs1 14..12=0x7 vs3 6..0=0x27
+vssseg5e64.v    31..28=4 27..26=2 vm rs2 rs1 14..12=0x7 vs3 6..0=0x27
+vssseg6e64.v    31..28=5 27..26=2 vm rs2 rs1 14..12=0x7 vs3 6..0=0x27
+vssseg7e64.v    31..28=6 27..26=2 vm rs2 rs1 14..12=0x7 vs3 6..0=0x27
+vssseg8e64.v    31..28=7 27..26=2 vm rs2 rs1 14..12=0x7 vs3 6..0=0x27
+
 # Vector Indexed-Ordered Instructions (including segment part)
 # https://github.com/riscv/riscv-v-spec/blob/master/v-spec.adoc#76-vector-indexed-instructions
 vloxei8.v       31..28=0 27..26=3 vm vs2 rs1 14..12=0x0 vd 6..0=0x07
